@@ -210,3 +210,69 @@ footer {
     color: #8b92a5;
     font-size: 14px;
 }
+
+/* MOBİL MENÜ BUTONU */
+
+.menu-toggle {
+    display: none;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* MOBİL UYUMLULUK */
+
+@media (max-width: 768px) {
+
+    nav {
+        position: relative;
+        padding: 25px 6%;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: #151b29;
+        flex-direction: column;
+        gap: 0;
+        padding: 15px 6%;
+        z-index: 10;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    nav ul li {
+        padding: 15px 0;
+    }
+
+    .hero {
+        padding: 60px 6%;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .content-section {
+        padding: 70px 6%;
+    }
+
+    .content-section h2 {
+        font-size: 32px;
+    }
+
+}
+html {
+    scroll-behavior: smooth;
+}

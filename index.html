@@ -8,19 +8,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  
+<nav>
+    <div class="logo">Onur<span>.</span></div>
 
-    <!-- NAVIGATION -->
-    <nav>
-        <div class="logo">Onur<span>.</span></div>
+    <button class="menu-toggle" id="menu-toggle"
+        aria-label="Menüyü aç"
+        aria-expanded="false">
+        ☰
+    </button>
 
-        <ul>
-            <li><a href="#home">Ana Sayfa</a></li>
-            <li><a href="#about">Hakkımda</a></li>
-            <li><a href="#skills">Yeteneklerim</a></li>
-            <li><a href="#projects">Projelerim</a></li>
-            <li><a href="#contact">İletişim</a></li>
-        </ul>
-    </nav>
+    <ul id="nav-links">
+        <li><a href="#home">Ana Sayfa</a></li>
+        <li><a href="#about">Hakkımda</a></li>
+        <li><a href="#skills">Yeteneklerim</a></li>
+        <li><a href="#projects">Projelerim</a></li>
+        <li><a href="#contact">İletişim</a></li>
+    </ul>
+</nav>
+
 
     <!-- HOME -->
     <section class="hero" id="home">
@@ -130,6 +136,9 @@ C, Python ve Java başta olmak üzere farklı programlama dilleri üzerinde çal
            class="button">
             GitHub Profilim
         </a>
+        <button onclick="showMessage()" class="button">
+          Bana Tıkla
+    </button>
 
     </section>
 
@@ -138,4 +147,5 @@ C, Python ve Java başta olmak üzere farklı programlama dilleri üzerinde çal
     </footer>
 
 </body>
+<script src="script.js"></script>
 </html>
