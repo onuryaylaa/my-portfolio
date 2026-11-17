@@ -90,3 +90,123 @@ nav a:hover {
 .button:hover {
     background-color: #7041d8;
 }
+
+/* GENEL İÇERİK BÖLÜMLERİ */
+
+.content-section {
+    padding: 100px 10%;
+    border-top: 1px solid #1d2433;
+}
+
+.section-label {
+    color: #8b5cf6;
+    letter-spacing: 3px;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.content-section h2 {
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.content-section h2 span {
+    color: #8b5cf6;
+}
+
+.section-text {
+    color: #a5aabb;
+    max-width: 750px;
+    line-height: 2;
+    font-size: 16px;
+}
+
+/* SKILLS */
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 35px;
+}
+
+.skill-card {
+    background-color: #151b29;
+    border: 1px solid #292f40;
+    padding: 22px 35px;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    border-color: #8b5cf6;
+    transform: translateY(-5px);
+}
+
+.learning-text {
+    color: #8b92a5;
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+/* PROJECTS */
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.project-card {
+    background-color: #151b29;
+    border: 1px solid #292f40;
+    border-radius: 12px;
+    padding: 30px;
+    flex: 1;
+    min-width: 250px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    border-color: #8b5cf6;
+}
+
+.project-card h3 {
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    color: #a5aabb;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.project-card span {
+    color: #a78bfa;
+    font-size: 13px;
+}
+
+/* CONTACT */
+
+.contact-section {
+    text-align: center;
+}
+
+.contact-section .section-text {
+    margin: 0 auto 30px;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 25px;
+    border-top: 1px solid #1d2433;
+    color: #8b92a5;
+    font-size: 14px;
+}
